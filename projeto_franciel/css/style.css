@@ -1,0 +1,152 @@
+.form_login{
+    width: 50%;
+    padding-top: 10%;
+    margin-left: 25%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif
+}
+
+.header_topo{
+    width: 100%;
+    height: 50px;
+    background: #372c5e;
+    margin: 0 auto;
+}
+
+.container_sidebar{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.siderbar{
+    width: 250px;
+    height: 100%;
+    background:#272727;
+    float: left;
+}
+
+.content{
+    width: auto;
+    height: 100%;
+    background: #fcfafa;
+    padding: 15px;
+    margin-left: 250px;
+}
+
+.content h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #525050;
+}
+
+.box{
+    margin-top:15px;
+}
+
+.box .box-top{
+    color: #fff;
+    text-shadow: 0px 0px 1px #ddd;
+    background-color: #51496d;
+    padding: 5px;
+}
+
+.box .box-painel{
+    padding: 15px;
+    background-color: rgb(253, 154, 119);
+    
+}
+
+.menu ul li{
+    list-style: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffff;
+
+    
+    
+}
+.menu ul li:hover{
+    background: #636161;
+    padding-left: 25px;
+}
+
+.menu ul li a{
+    color: #ffff;
+    display: block;
+    padding: 10px;
+    font-size: 0.8em;
+    text-decoration: none!important;
+    
+    
+    
+    
+}
+
+
+/**CLIENTE */
+
+.icone{
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    padding: 3px;
+   
+    
+}
+
+.botao{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.back{
+    font-size: 30px;
+    
+}
+
+.title_adc{
+text-align: center;
+
+padding-top: 40px;
+font-family: sans-serif;
+font-weight: 600;
+}
+
+
+.sair{
+    
+    float: right;
+    padding: 12px;
+    color: #fff;
+    text-align: right; 
+    margin-right: 3%;
+    font-size: 16px;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none!important;
+    
+
+}
+.fas.fa-sign-out-alt:hover{
+    color: rgb(251, 255, 254);
+}
+
+.fas.fa-sign-out-alt{
+     font-size: 30px;
+     color: orange;
+}
+
+
+
+
+    
