@@ -1,5 +1,5 @@
 <?php 
-require'./db/config.php';
+require'../db/config.php';
 require'produto.class.php';
 
 
@@ -75,8 +75,8 @@ if (!empty($_POST['id'])) {
                 <input type="text" name="marca" class="form-control" value="<?php echo $prod['marca'];?>">
                 
                 <label>quantidade:</label>
-                <input type="text" name="quantidade" class="form-control" value="<?php echo $prod['quantidade'];?>">
-
+                <input type="text" name="quantidade" class="form-control" value="<?php echo $prod['quantidade'];?>"></br>
+                
                 <button type="submit" value="salvar" class="btn btn-primary">salvar</button>
 
            

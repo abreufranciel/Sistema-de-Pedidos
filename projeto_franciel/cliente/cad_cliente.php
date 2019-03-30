@@ -1,5 +1,5 @@
 <?php 
-require'./db/config.php';
+require'../db/config.php';
 require'cliente.class.php';
 
 
@@ -25,14 +25,14 @@ if (!empty($_POST['nome'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>Adicionar Usuario</title>
+    <title>Adicionar Cliente</title>
 
 
-    <title>Login</title>
+   
 </head>
 
 <body>
@@ -40,7 +40,7 @@ if (!empty($_POST['nome'])) {
 
 
     <div class="container">
-    <h1 class="title_adc">Adicionar Usuario</h1>
+    <h1 class="title_adc">Adicionar Cliente</h1>
 
         <div class="form_login">
             <form method="POST">

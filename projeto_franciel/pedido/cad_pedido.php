@@ -1,7 +1,7 @@
 <?php 
-require'./db/config.php';
-require'cliente.class.php';
-require'produto.class.php';
+require'../db/config.php';
+require'../cliente/cliente.class.php';
+require'../produto/produto.class.php';
 require'pedido.class.php';
 
 $cliente = new Cliente();
@@ -30,7 +30,7 @@ if (!empty($_POST['quantidade'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -80,7 +80,7 @@ if (!empty($_POST['quantidade'])) {
                 </div>
 
                 <div class="form-group">
-                    <label>quantidade:</label>
+                    <label>Quantidade:</label>
                     <input type="text" name="quantidade" class="form-control" placeholder="Digite a quantidade">
                 </div>
 

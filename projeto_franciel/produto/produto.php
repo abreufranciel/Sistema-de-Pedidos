@@ -1,21 +1,16 @@
 <?php
-require'./db/config.php';
+require'../db/config.php';
+session_start();
 include'produto.class.php';
 
-session_start();
+
 
 if (empty($_SESSION['logado'])) {
     header("location:login.php");
 }
 
-
 $produto = new Produto();
-
-
 ?>
-
-
-
 
 <html lang="pt-br">
 
@@ -23,13 +18,13 @@ $produto = new Produto();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>painel</title>
+    <title>Produto</title>
 
 </head>
 
@@ -39,13 +34,9 @@ $produto = new Produto();
     <h1>Painel Produto</h1>
 
     <div>
-    <a href="painel.php" class="back fas fa-backward"></a>  
+    <a href="../painel.php" class="back fas fa-backward"></a>  
         <a href="cad_produto.php" class="botao btn btn-primary">Cadastrar Produto</a>
     </div>
-
-
-
-
 
     <table class="table">
         

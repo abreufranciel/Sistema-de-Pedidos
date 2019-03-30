@@ -1,7 +1,7 @@
 <?php 
-require'./db/config.php';
+require'../db/config.php';
 session_start();
-require'cliente.class.php';
+include'cliente.class.php';
 
 
 $cliente = new Cliente();
@@ -18,13 +18,13 @@ $cliente = new Cliente();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
     <link rel="stylesheet" type="text/css"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>painel</title>
+    <title>Cliente</title>
 
 </head>
 
@@ -32,19 +32,11 @@ $cliente = new Cliente();
 
 <div class="container">
 
-<h1> Painel de Cliente</h1>
-    <div >
-            
-    </div>
-
-
-   
+<h1>Painel de Cliente</h1>
     
-
     <div>
-        
-         <a href="painel.php" class="back fas fa-backward"></a>   
-            <a href="cad_cliente.php" class="botao btn btn-primary">Cadastrar Usuario</a>
+         <a href="../painel.php" class="back fas fa-backward"></a>   
+        <a href="cad_cliente.php" class="botao btn btn-primary">Cadastrar Cliente</a>
         
     </div>
 

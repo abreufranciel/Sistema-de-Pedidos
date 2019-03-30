@@ -1,6 +1,6 @@
 <?php
 
-require'./db/config.php';
+require'../db/config.php';
 include'pedido.class.php';
 
 
@@ -21,7 +21,7 @@ $pedido =new Pedido();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     
@@ -42,7 +42,7 @@ $pedido =new Pedido();
 
 
         <div>
-        <a href="painel.php" class="back fas fa-backward"></a>
+        <a href="../painel.php" class="back fas fa-backward"></a>
         <a href="cad_pedido.php" class="botao btn btn-primary">Cadastrar Pedido</a>
         </div>
 

@@ -1,5 +1,6 @@
 <?php
 include'./db/config.php';
+
 session_start();
 
 if (empty($_SESSION['logado'])) {
@@ -41,9 +42,9 @@ if (empty($_SESSION['logado'])) {
     <div class="siderbar">
         <div class="menu">
             <ul>
-                <li><a href="cliente.php">Cliente</a></li>
-                <li><a href="produto.php">Produto</a></li>
-                <li><a href="pedido.php">Pedidos</a></li>
+                <li><a href="./cliente/cliente.php">Cliente</a></li>
+                <li><a href="./produto/produto.php">Produto</a></li>
+                <li><a href="./pedido/pedido.php">Pedidos</a></li>
             </ul>
         </div>
 
